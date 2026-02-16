@@ -18,6 +18,8 @@ void *ThreadFunction(void *ctx) {
                    static_cast<const void *>(&(context->a)),
                    static_cast<const void *>(&(context->b)))
             << std::endl;
+    
+  context->a += 10;
 
   std::cout << std::format(
                    "[CHILD]: context->a value: {}, context->b value: {}",

@@ -1,0 +1,5 @@
+add_subdirectory(atomics)
+add_subdirectory(barrier)
+add_subdirectory(condition_variable)
+add_subdirectory(mutex)
+add_subdirectory(sync_intro)
