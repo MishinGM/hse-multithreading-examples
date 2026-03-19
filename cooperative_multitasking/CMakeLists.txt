@@ -1,0 +1,2 @@
+add_executable(cooperative_dfs cooperative_dfs.cpp)
+target_compile_features(cooperative_dfs PRIVATE cxx_std_20)
