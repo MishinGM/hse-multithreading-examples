@@ -10,6 +10,9 @@ target_link_libraries(async PRIVATE Threads::Threads)
 add_executable(packaged_task packaged_task.cpp)
 target_link_libraries(packaged_task PRIVATE Threads::Threads)
 
+add_executable(process_pool_hw process_pool_hw.cpp)
+target_link_libraries(process_pool_hw PRIVATE Threads::Threads)
+
 include(FetchContent)
 FetchContent_Declare(
     stdexec
